@@ -1,0 +1,64 @@
+html {
+}
+body {
+    height: auto;
+    width: 100%;
+    /*background-color: red;*/
+}
+.wrapper {
+    background-color: rgb(217, 222, 236);
+    height: auto;
+    width: 900px;
+    justify-content: center;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.header img {
+   width: 250px;
+   margin: 30px;
+   border-radius: 50%;
+}
+.name-designation {
+    display: flex;
+    flex-direction: column;
+}
+.header .name {
+    font-size: 50px;
+    letter-spacing: 5.5;
+    float: right ;
+    margin-top: 40px;
+    margin-bottom: -15px;
+}
+.header .designation {
+    font-size: 25px;
+    letter-spacing: 2.5;
+    margin-bottom: -15px;
+}
+/*content-container*/
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 50%;
+    /*background-color: saddlebrown;*/
+    padding: 20px;
+    line-height: 1.5;
+}
+.right {
+    width: 50%;
+    /*background-color:seagreen;*/
+    padding: 20px;
+}
+.title {
+    font-size: 30px;
+
+}
+.education .college-name, .project-name {
+    font-size: 20px;
+}
